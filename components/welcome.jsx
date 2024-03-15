@@ -33,7 +33,7 @@ const Welcome = () => {
       <p className="text-red-700 text-lg pb-2">Questions</p>
       <div className="border border-gray-300">
         <div className="p-2">
-          <p>Question 1: Tailwind</p>
+          <p className="font-semibold">Code sample 1: Tailwind</p>
           <p>
             Click on this{" "}
             <Link className="text-red-500" href="/codeSample1">
@@ -43,7 +43,7 @@ const Welcome = () => {
           </p>
         </div>
         <div className="p-2">
-          <p>Question 2: Forms</p>
+          <p className="font-semibold">Code sample 2: Forms</p>
           <p>
             Click on this{" "}
             <Link className="text-red-500" href="/codeSample2">
@@ -53,7 +53,7 @@ const Welcome = () => {
           </p>
         </div>
         <div className="p-2">
-          <p>Question 3: Making API calls</p>
+          <p className="font-semibold">Code sample 3: Making API calls</p>
           <p>
             Click on this{" "}
             <Link className="text-red-500" href="/codeSample3">
@@ -63,7 +63,7 @@ const Welcome = () => {
           </p>
         </div>
         <div className="p-2">
-          <p>Question 4: Interactivity</p>
+          <p className="font-semibold">Code sample 4: Interactivity</p>
           <p>
             Click on this{" "}
             <Link className="text-red-500" href="/codeSample4">

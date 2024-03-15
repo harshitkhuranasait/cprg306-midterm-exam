@@ -7,7 +7,7 @@ const CodeSample3 = () => {
 
   return (
     <div className="h-screen bg-white p-2">
-      <h1 className="pb-2 text-blue-600">Code section 3: Making an API Call</h1>
+      <h1 className="pb-2 text-blue-600">Code sample 3: Making an API Call</h1>
       <div className="p-2 text-sm text-gray-600">
         <p className="pb-2">
           Create an function that calls the following URL

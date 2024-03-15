@@ -12,7 +12,7 @@ const CodeSample4 = () => {
 
   return (
     <div className="h-screen bg-white p-2">
-      <h1 className="pb-2 text-blue-600">Question 4: Interactivity</h1>
+      <h1 className="pb-2 text-blue-600">Code sample 4: Interactivity</h1>
       <p className="pb-2"></p>
 
       <div className="p-4">

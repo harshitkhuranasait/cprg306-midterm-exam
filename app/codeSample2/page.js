@@ -9,7 +9,7 @@ const CodeSample2 = () => {
 
   return (
     <div className="h-screen bg-white p-2">
-      <h1>Question 2</h1>
+      <h1>Code sample 2</h1>
       <FormExam list={myList} />
     </div>
   );
