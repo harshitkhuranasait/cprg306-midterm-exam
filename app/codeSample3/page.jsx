@@ -1,9 +1,21 @@
-"use client";
+"use client"
+import { useState } from "react";
 
 import APICallExam from "@/components/apiCallExam";
 
 const CodeSample3 = () => {
-  const myList = ["Cat", "Dog", "Chicken", "Cow"];
+  const [secretCode, setSecretCode] = useState("");
+  const passcode = "ehen2rfow";
+
+  const handleAPICall = async () => {
+    try {
+      const response = await fetch(`https://webdev2-class-demo.vercel.app/api/sampleReqs/${passcode}`);
+      const data = await response.json();
+      setSecretCode(data.secretCode);
+    } catch (error) {
+      console.error("Error fetching data:", error);
+    }
+  };
 
   return (
     <div className="h-screen bg-white p-2 text-black">
@@ -23,7 +35,10 @@ const CodeSample3 = () => {
       </div>
 
       <div className="p-4">
-        <APICallExam list={myList} />
+        <button onClick={handleAPICall} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+          Call API
+        </button>
+        {secretCode && <p className="mt-4">Secret Code: {secretCode}</p>}
       </div>
     </div>
   );
