@@ -8,7 +8,7 @@ const CodeSample2 = () => {
   const myList = ["Cat", "Dog", "Chicken", "Cow"];
 
   return (
-    <div className="h-screen bg-white p-2">
+    <div className="h-screen bg-white p-2 text-black">
       <h1>Code sample 2</h1>
       <FormExam list={myList} />
     </div>

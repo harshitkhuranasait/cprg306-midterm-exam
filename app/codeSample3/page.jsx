@@ -6,7 +6,7 @@ const CodeSample3 = () => {
   const myList = ["Cat", "Dog", "Chicken", "Cow"];
 
   return (
-    <div className="h-screen bg-white p-2">
+    <div className="h-screen bg-white p-2 text-black">
       <h1 className="pb-2 text-blue-600">Code sample 3: Making an API Call</h1>
       <div className="p-2 text-sm text-gray-600">
         <p className="pb-2">

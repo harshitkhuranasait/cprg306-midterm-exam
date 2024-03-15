@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const CodeSample1 = () => {
   return (
-    <div className="h-screen bg-white">
+    <div className="h-screen bg-white text-black">
       <div className="bg-gray-200 h-[100px] flex items-center justify-center">
         <p className="text-center">
           Here is a sample portfolio page. One the left is an unstyled page and

@@ -15,10 +15,9 @@ const Welcome = () => {
         this midterm.
       </p>
       <p className="pb-2">
-        2. All the questions listed below are also found in D2L in the course
-        shell. You are to answer all questions in that shell and submit in D2L.
-        You will be required to copy the code that you write in this repo and
-        paste in the appropriate answer spot in D2L.
+        2. All the code samples below are related to questions found in D2L in
+        the course shell. You are to answer all questions in that shell and
+        submit in D2L.
       </p>
       <p className="pb-2">
         3. Once you are done with exam, create a new repository in your github
