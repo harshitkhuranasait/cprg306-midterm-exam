@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const Welcome = () => {
   return (
-    <div className="p-2 ">
+    <div className="p-2 text-black bg-white">
       <h2 className="text-3xl text-center pb-4">
         Welcome to the webdev2 mid term examination{" "}
       </h2>
