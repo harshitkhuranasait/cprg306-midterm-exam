@@ -13,12 +13,12 @@ const CodeSample3 = () => {
           Create an function that calls the following URL
           https://webdev2-class-demo.vercel.app/api/sampleReqs/. The function
           should be called on the click of the button below. This call is a GET
-          request and it requires a passcode to be appended to it to work.
+          request and it requires a passcode as part of the url for it to work.
         </p>
         <p>
-          Append this passcode to end of the url: "ehen2rfow". The response from
-          this call will contain a json with a single field called "secretCode".
-          This is the answer to one of your questions.{" "}
+          This passcode is: "ehen2rfow". It is to be appended to the URL. The
+          response from this call will contain a json with a single field called
+          "secretCode". This is the answer to your question.{" "}
         </p>
       </div>
 
